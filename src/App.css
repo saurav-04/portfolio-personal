@@ -83,3 +83,25 @@ p, a, li, button, ul {
   p.danger {
       color: red;
   }
+
+  /*navbar CSS*/
+
+  nav.navbar{
+    padding: 18px 0px;
+    position: fixed ;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    transition: 0.32 ease-in-out;
+  }
+
+  nav.navbar.scroll{
+    padding: 0px 0px;
+    background-color: #121212;
+  }
+
+  nav.navbar , a.navbar-brand{
+    width: 9%;
+  }
+
+  
