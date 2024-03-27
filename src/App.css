@@ -15,3 +15,25 @@
     src: url('./assets/font/CentraNo2-Book.ttf');
     font-weight: 400;
 }
+
+/*Default CSS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+}
+
+body{
+    font-weight: 400;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #121212 !important;
+    color: #fff !important;
+    font-family: 'Central' sans-serif !important;
+}
