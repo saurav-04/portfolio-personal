@@ -117,10 +117,8 @@ p, a, li, button, ul {
 
   span.navbar-socials , div.social-icons{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    gap: 25px;
+    gap: 20px;
   }
 
   div.social-icons a {
