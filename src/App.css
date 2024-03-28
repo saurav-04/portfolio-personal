@@ -94,11 +94,26 @@ p, a, li, button, ul {
     z-index: 9999;
     transition:  0.32s ease-in-out;
   }
+
   nav.navbar.scroll {
     padding: 0px 0;
     background-color: #121212;
   }
+
   nav.navbar a.navbar-brand {
       width: 9%;
+  }
+
+  nav.navbar .navbar-nav .nav-link.navbar-link{
+    font-weight: 400;
+    color: #fff !important;
+  }
+
+  span.navbar-socials , div.social-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
   }
   
