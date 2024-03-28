@@ -122,8 +122,8 @@ p, a, li, button, ul {
   }
 
   div.social-icons a {
-    width: 22px;
-    height: 22px;
+    width: 42px;
+    height: 42px;
     background: rgba(217,217,217,0.1);
     display: inline-flex;
     border-radius: 50%;
@@ -136,8 +136,8 @@ p, a, li, button, ul {
 
   div.social-icons a::before{
     content: "";
-    width: 22px;
-    height: 22px;
+    width: 42px;
+    height: 42px;
     position: absolute;
     background-color: #ffffff !important;
     border-radius: 50%;
@@ -147,4 +147,26 @@ p, a, li, button, ul {
 
   div.social-icons a:hover::before{
     transform: scale(1);
+  }
+
+  div.social-icons a img{
+    width: 40%;
+    z-index: 1;
+    transition: 0.3s ease-in-out;
+  }
+
+  div.social-icons a:hover img{
+    filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+  }
+
+  .navbar-socials button{
+    font-weight: 700;
+    color: #fff !important;
+    border: 1px solid #ffffff !important;
+    padding: 18px 34px;
+    font-size: 18px;
+    margin-left: 18px;
+    position: relative;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
   }
