@@ -1,4 +1,4 @@
-/*Coustom fonts*/
+/*******Coustom fonts********/
 
 @font-face {
     font-family: Central;
@@ -16,7 +16,7 @@
     font-weight: 400;
 }
 
-/*Default CSS*/
+/*******Default CSS*******/
 
 *{
     margin: 0;
@@ -84,7 +84,7 @@ p, a, li, button, ul {
       color: red;
   }
 
-  /*navbar CSS*/
+  /******navbar CSS******/
 
   nav.navbar {
     padding: 18px 0;
@@ -139,8 +139,12 @@ p, a, li, button, ul {
     width: 22px;
     height: 22px;
     position: absolute;
-    background-color: #fff !important;
+    background-color: #ffffff !important;
     border-radius: 50%;
     transform: scale(0);
     transition: 0.3s ease-in-out;
+  }
+
+  div.social-icons a:hover::before{
+    transform: scale(1);
   }
