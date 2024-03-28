@@ -57,10 +57,11 @@ export const NavBar = () =>{
                     <a href="#facebook" alt='facebook' ><img src={navIconn2} alt="icon2"/></a>
                     <a href="#instagram" alt='instagram' ><img src={navIconn3} alt="icon3"/></a>
                 </div>
+                
+                <button className="navbar-connect-button" onClick={()=> (console.log('connect'))}><span> Let's Connect!! </span></button>
+
               </span>
               
-              <button className="navbar-connect-button" onClick={()=> (console.log('connect'))}><span> Let's Connect!! </span></button>
-            
             </Navbar.Collapse>
           </Container>
         </Navbar>
