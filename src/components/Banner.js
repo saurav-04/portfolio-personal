@@ -47,7 +47,7 @@ export const Banner = ()=>{
                         
                         <span className="tagline">Welcome to my portfolio!!!</span>
                         
-                        <h1>{`Hi! I'm Judy`} <span className="wrap">{text}</span></h1>
+                        <h1>{` Hi! I'm Saurav `} <span className="wrap">{text}</span></h1>
                         
                         <p>
                             Hey there! 👋 I'm Saurav, a passionate Full Stack Developer with a knack for crafting seamless digital experiences. With a blend of creativity and technical expertise, I thrive on turning innovative ideas into reality.
