@@ -5,7 +5,7 @@ import "react-multi-carousel/lib/styles.css";
 export const Skills = ()=>{
     const responsive = {
         superLargeDesktop: {
-          // the naming can be any, depends on you.
+            
           breakpoint: { max: 4000, min: 3000 },
           items: 5
         },
@@ -32,7 +32,10 @@ export const Skills = ()=>{
                         <h2>
                             Skills
                         </h2>
-                        <p>Duis commodo cupidatat do ut enim aliqua.</p>
+                        <p>Duis commodo cupidatat do ut enim aliqua.<br/></p>
+                        <Carousel responsive={responsive} infinite = {true} className="skill-slider">
+
+                        </Carousel>
                     </div>
                     </Col>
                 </Row>
