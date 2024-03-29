@@ -323,6 +323,6 @@ p, a, li, button, ul {
     
   }
 
-  h1 span.wrap {
+  .wrap {
     border-right: 0.08em solid #666 !important;
   }
