@@ -76,8 +76,8 @@ export const Projects = ()=>{
                         </Tab.Container>
                     </Col>
                 </Row>
-                <img className="background-image-right" src={colorSharp2} alt="bgImageRight"/>
             </Container>
+            <img className="background-image-right" src={colorSharp2} alt="bgImageRight"/>
         </section>
 
     )
