@@ -10,13 +10,14 @@ export const Banner = ()=>{
     const [text , setText] = useState ('')
     const period = 2000;
     const [delta , setDelta] = useState(300 - Math.random()*100)
-
+    
     useEffect(() => {
         let ticker = setInterval(() => {
           tick();
         }, delta);
     
         return () => { clearInterval(ticker) };
+    
       }, [text])
 
     const tick = () => {
