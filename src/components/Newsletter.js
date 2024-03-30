@@ -10,7 +10,7 @@ export const Newsletter = ({onValidated,status,message})=>{
         }
     },[status])
 
-    const handleSubmit =()=>{
+    const handleSubmit =(e)=>{
         e.preventDefault();
         email &&
         email.indexOf("@")>-1 &&
