@@ -25,6 +25,9 @@ export const ContactForm = ()=>{
         )
     }
 
+    const handleSubmit = ()=>{
+        
+    }
 
     return (
         <section className="contact" id="connnect">
@@ -35,7 +38,7 @@ export const ContactForm = ()=>{
                     </Col>
                     <Col md={6}>
                         <h2>Get in touch</h2>
-                        <form>
+                        <form  onSubmit={handleSubmit}>
                             <Row>
                                 <Col md={6} className="px-1">
                                     <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e)=>{updateFromdetails('firstName',e.target.value)}}/>
